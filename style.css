@@ -57,7 +57,7 @@ body{
 }
 
 .hero-texto{
-    font-family: monospace;
+    font-size: 16px;
 }
 
 .hero-titulo{
@@ -82,11 +82,12 @@ body{
 }
 
 button{
+    font-size: 14px;
     border-radius: 10px;
     padding: 8px 26px;
     color: rgb(247, 240, 255);
     background-color: rgb(117, 86, 163);
-    border: solid rgb(247, 240, 255);
+    border: 2px solid rgb(247, 240, 255);
 }
 
 video{
@@ -99,7 +100,7 @@ img{
     width: 250px;
     height: 250px;
     border-radius: 11px;
-    border: solid 8px #211f37;
+    border: solid 7px #211f37;
 }
 
 .info{ 
@@ -128,8 +129,7 @@ img{
 }
 
 .info-text{
-    font-family: monospace;
-    font-size: 14px;
+    font-size: 16px;
     color: #211f37;
     text-align: center;
 }
@@ -169,22 +169,40 @@ img{
 
 .login{
     display: flex;
-    height: 450px;
+    height: 500px;
     background-color: rgb(247, 240, 255);
     align-items: center;
     justify-content: center;
 }
 
 .login-display{
-    background-color: #938fb9;
+    background-color: rgb(117, 86, 163);
     display: flex;
-    height: 100px;
-    width: 1300px;
+    
+    width: 1100px;
     justify-content: center;
+    padding: 60px;
+    border-radius: 12px;
 }
 
 .login-content{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-right: 170px;
+    color: rgb(247, 240, 255);
+}
+
+.login-info,
+.login-main{
+      font-size: 16px;
+}
+
+.footer{
+    height: 80px;
+    background-color: #211f37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 240, 255);
 }
